@@ -1,0 +1,45 @@
+/* generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+/* elementi */
+.container {
+    background-color: darkgray;
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    color: yellow;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    font-weight: bold;
+}
+
+.box {
+    width: calc(100% / 10 - 30px);
+    height: 80px;
+    margin: 15px;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* DEBUG */
