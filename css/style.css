@@ -22,24 +22,36 @@ h1 {
     text-align: center;
 }
 
-ul {
-    list-style-type: none;
+#box {
     display: flex;
     flex-wrap: wrap;
 }
 
-li {
-    font-weight: bold;
-}
-
-.box {
+.square {
     width: calc(100% / 10 - 30px);
     height: 80px;
     margin: 15px;
+    font-weight: bold;
     background-color: darkcyan;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.radius {
+    border-radius: 50%;
 }
 
 /* DEBUG */

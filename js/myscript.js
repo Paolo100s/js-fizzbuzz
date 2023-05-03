@@ -13,6 +13,7 @@ for (let n = 1; n <=100; n++) {
     // divisibile per 3 e per 5
     if (n % 3 === 0 && n % 5 === 0) {
         numb = "FizzBuzz"
+        quadrato.classList.add("red","radius");
     }
 
     // divisibile per 3
